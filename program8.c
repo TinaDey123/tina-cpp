@@ -18,9 +18,9 @@ int main()
     int element=30;
     insert(a,n,pos,element);
     printf("after insertion:");
-    for(int i=0;i<=n;i++)
+    for(int i=0;i<n;i++)
     {
-        printf("%d",a[i]);
+        printf("%d ",a[i]);
     }
     return 0;
 }
